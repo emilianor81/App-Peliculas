@@ -1,0 +1,14 @@
+.cnt {
+    padding-top: 10px;
+}
+.boton{
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: rgba(124, 72, 72, 0.349);
+    font-size: 10px;
+}
+.contenedor{
+    border: 3px solid green;
+    width: 350px;
+    text-align: center;
+}
