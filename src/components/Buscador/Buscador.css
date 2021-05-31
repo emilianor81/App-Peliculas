@@ -1,18 +1,46 @@
 .cnt {
-    padding-top: 10px;
+  padding-top: 10px;
 }
+
+.form {
+  background: rgb(232 217 217);
+  border-radius: 3px;
+  border: 3px solid gray;
+}
+
+.titulo {
+  color: rgba(34, 34, 26, 0.486);
+  text-align: center;
+  font-size: 25px;
+}
+
 .form-container {
-    display:flex;
-    flex-direction: row;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  /* align-items: flex-start; */
+  margin-left: 39px;
+}
+
+.buton {
+  margin-left: 7px;
+}
+
+.form-container button:hover {
+  /* background-color: #808080; */
+  color: rgb(228, 101, 101);
+  cursor: pointer;
+}
+
+.label {
+  padding-right: 10px;
+  font-size: 21px;
 }
 
 .form-container button {
-    margin-left: 20px;
+  height: 22px;
+  margin-top: auto;
+  margin-left: 20px;
 }
-.label {
-    padding-right: 10px;
-}
-.buton{
-    margin-left: 5px;
+.input {
+  height: 17px;
 }
